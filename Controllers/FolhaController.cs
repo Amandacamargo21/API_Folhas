@@ -14,7 +14,7 @@ namespace API_Folhas.Controllers
         public FolhaController(DataContext context) =>
             _context = context;
 
-        private static List<FolhaPagamento> folhas = new List<FolhaPagamento>();
+        // private static List<FolhaPagamento> folhas = new List<FolhaPagamento>();
 
         // POST: /api/folha/cadastrar
         [Route("cadastrar")]

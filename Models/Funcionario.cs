@@ -9,7 +9,7 @@ namespace API_Folhas.Models
         public Funcionario() => CriadoEm = DateTime.Now;
         public int FuncionarioId { get; set; }
         public string Nome { get; set; }
-        public int Cpf { get; set; }
+        public string Cpf { get; set; }
         public string Nascimento { get; set; }
         public DateTime CriadoEm { get; set; }
 

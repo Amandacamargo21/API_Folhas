@@ -12,5 +12,5 @@ Content-Type: application/json
     "Nome" : "amanda",
     "Cpf" : "2222222",    
     "Email" : "asd@asd",
-    "Nascimento" : 10011996
+    "Nascimento" : "100"
 }
