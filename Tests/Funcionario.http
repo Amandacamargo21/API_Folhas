@@ -9,8 +9,21 @@ POST https://localhost:5001/api/funcionario/cadastrar
 Content-Type: application/json
 
 {
-    "Nome" : "amanda",
-    "Cpf" : "2222222",    
-    "Email" : "asd@asd",
-    "Nascimento" : "100"
+    "nome" : "Diogo Steinke Deconto",
+    "cpf" : "12312312318",    
+    "email" : "asd@asd",
+    "salario" : 1000
+}
+
+### Deletar um funcionário
+DELETE https://localhost:5001/api/funcionario/deletar/9
+
+### Alterar um funcionário
+PATCH https://localhost:5001/api/funcionario/alterar
+Content-Type: application/json
+
+{
+    "funcionarioid" : 10,
+    "nome" : "diogo deconto modificado",
+    "cpf" : "123"
 }

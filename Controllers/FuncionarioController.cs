@@ -75,3 +75,20 @@ namespace API_Folhas.Controllers
         }
     }
 }
+
+
+// if (funcionario != null)
+// {
+//     return Ok(funcionario);
+// }
+// return NotFound();
+// foreach (Funcionario f in funcionarios)
+// {
+//     if(f.Cpf.Equals(cpf))
+//     {
+//         return Ok(f);
+//     }
+// }
+// foreach(Funcionario f in _context.Funcionarios.ToList()){
+
+// }
